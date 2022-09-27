@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --main-color: rgb(243, 239, 12);
+    --main-text-color: #fff;
+    --border-color: rgb(0, 0, 0);
+    --bio-bg-color: rgb(0, 0, 0);
+    --bio-border-color: rgb(0, 0, 0);
+    --about-bg-color: rgb(97, 97, 101);
+}
+
+.highlight {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    color: var(--main-text-color);
+}
+
+#bio-container{
+    flex: 1 1 20%;
+    min-height: 100vh;
+    background-color: var(--bio-bg-color);
+    text-align: center;
+    padding: 30px 12px;
+    border: 5px solid var(--bio-border-color);
+}
+
+#bio-container img {
+    width: 150px;
+    height: 150px;
+}
+
+#bio-container h2 {
+    margin-bottom: 25px;
+}
+
+#bio-container p {
+    margin-bottom: 20px;
+}
+
+#bio-container #welcome-text {
+    font-weight: bold;
+}
+
+#bio-img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+#about-container {
+    flex: 1 1 80%;
+    min-height: 100vh;
+    background-color: var(--about-bg-color);
+    padding: 50px;
+    border: 5px solid var(--bio-border-color);
+}
+
+#social-container {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+#social-container li {
+    flex: 1 1 0;
+    max-width: 60px;
+}
+
+#social-container li a {
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+#email-container {
+    display: flex;
+    justify-content: center;
+}
+
+#email-container ion-icon,
+#email-container a {
+     flex: content;
+}
+
+#email-container a{
+    color: var(--main-text-color);
+    text-decoration: none;
+    max-width: 225px;
+}
+
+#email-container ion-icon{
+    color: var(--main-color);
+    font-size: 20px;
+    margin-right: 5px;
+    max-width: 20px;
+}
+
+#name {
+
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.description {
+    max-width: 75%;
+}
+
+#btn-project {
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--main-text-color);
+    background-color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .5s;
+    margin: 25px 0;
+    padding: 12px 10px;
+    width: 150px;
+    text-align: center;
+    display: flex; 
+}
+
+#btn-project ion-icon,
+#btn-project span {
+    flex: 1 1 0;
+}
+
+#btn-project ion-icon {
+    font-size: 20px;
+    max-width: 20px;
+}
+
+#btn-project:hover {
+    background-color: transparent;
+}
+
+#skills-section-title {
+    border-top: 4px solid var(--border-color);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+#skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skills-box {
+    flex: 1 1 33%;
+    max-width: 33%;
+    margin-bottom: 35px;
+}
+
+.skills-title {
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 5px solid var(--main-color);
+}
+
+.skills-box i {
+    font-size: 45px;
+    margin-right: 15px;
+}
+
+
+
