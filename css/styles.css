@@ -10,7 +10,7 @@
     --main-color: rgb(243, 239, 12);
     --main-text-color: #fff;
     --border-color: rgb(0, 0, 0);
-    --bio-bg-color: rgb(0, 0, 0);
+    --bio-bg-color: black;
     --bio-border-color: rgb(0, 0, 0);
     --about-bg-color: rgb(97, 97, 101);
 }
